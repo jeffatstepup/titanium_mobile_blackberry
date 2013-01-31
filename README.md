@@ -72,7 +72,7 @@ In the Simulator IP box enter the IP address you noted in step 5 BlackBerry tool
 
 1. telnet <simulator ip>  (you can find the IP in the lower left corner of the simulator window)
 2. login: username = devuser password = devuser
-3. The log files are located at /accounts/1000/appdata/<your app id>/logs
+3. The log files are located at /accounts/1000/appdata/<<your app id>>/logs
 4. You can use tail -f to stream log updates. Note you will need to re-start tail between application runs. 
 
 10) The easiest way to target running on a device is to use Titanium Studio and follow the instructions on the preview site. You can also use the command utilities to do the same activities as in Titanium Studio.
